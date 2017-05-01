@@ -1,10 +1,13 @@
-package com.viktorcitaku.hangman;
-//////////////// VIKTOR CITAKU ////////////////////////////////
-//klasa "Hangmans" ka per detyr te gjeneroj figurat me posht
-//per klasen "Hangman"
-public class Hangmans {
+package viktorcitaku.hangman;
+
+/**
+ * The main purpose of this class is to generate the necessary figures.
+ *
+ * @author Viktor Citaku
+ */
+final class Hangmans {
 	
-	public void printHanOne() {
+	void printHanOne() {
 		
 		System.out.println("____________");
 		System.out.println("|         |");
@@ -24,28 +27,7 @@ public class Hangmans {
 		System.out.println();
 	}
 	
-	public void printHanTwo() {
-		
-		System.out.println();
-		System.out.println("____________");
-		System.out.println("|         |");
-		System.out.println("|        _|_");
-		System.out.println("|       /* *\\");
-		System.out.println("|       \\ - /");
-		System.out.println("|       -----");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|");
-		System.out.println("|_-_-_-_-_-_-_-_-_-_-_-|");
-		System.out.println();
-	}
-	
-	public void printHanThree() {
+	void printHanTwo() {
 		
 		System.out.println();
 		System.out.println("____________");
@@ -54,6 +36,27 @@ public class Hangmans {
 		System.out.println("|       /* *\\");
 		System.out.println("|       \\ - /");
 		System.out.println("|       -----");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|");
+		System.out.println("|_-_-_-_-_-_-_-_-_-_-_-|");
+		System.out.println();
+	}
+	
+	void printHanThree() {
+		
+		System.out.println();
+		System.out.println("____________");
+		System.out.println("|         |");
+		System.out.println("|        _|_");
+		System.out.println("|       /* *\\");
+		System.out.println("|       \\ - /");
+		System.out.println("|       -----");
 		System.out.println("|        ||");
 		System.out.println("|        ||");
 		System.out.println("|        ||");
@@ -66,7 +69,7 @@ public class Hangmans {
 		System.out.println();
 	}
 	
-	public void printHanFour() {
+	void printHanFour() {
 		
 		System.out.println();
 		System.out.println("____________");
@@ -87,7 +90,7 @@ public class Hangmans {
 		System.out.println();
 	}
 	
-	public void printHanFive() {
+	void printHanFive() {
 		
 		System.out.println();
 		System.out.println("____________");
@@ -108,7 +111,7 @@ public class Hangmans {
 		System.out.println();
 	}
 	
-	public void printHanSix() {
+	void printHanSix() {
 		
 		System.out.println();
 		System.out.println("____________");
@@ -129,7 +132,7 @@ public class Hangmans {
 		System.out.println();
 	}
 	
-	public void printHanSeven() {
+	void printHanSeven() {
 		
 		System.out.println();
 		System.out.println("____________");
@@ -149,4 +152,4 @@ public class Hangmans {
 		System.out.println("|_-_-_-_-_-_-_-_-_-_-_-|");
 		System.out.println();
 	}
-}/////////////////////////////////////////////////////////////////////
+}

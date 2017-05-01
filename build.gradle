@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+targetCompatibility = '1.8'
+sourceCompatibility = '1.8'
+
+mainClassName = 'viktorcitaku.hangman.Main'
+
+//noinspection GroovyAssignabilityCheck
+run {
+    standardInput = System.in
+}

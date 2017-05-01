@@ -1,8 +1,15 @@
 # Hangman
-A command line game
+A command line game and the very first program written by me! 
 
-Compile all java files
+`I have made some changes to be able to run this with Maven or Gradle`
+
+*How to run with Maven:* `mvn clean install exec:java`
+ 
+*How to run with Gradle* `gradle clean run`
+
+
+Old style compilation of java files:
 >javac *.java
 
-and run Test class
->java Test
+and run Main class
+>java Main
